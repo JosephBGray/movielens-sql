@@ -10,7 +10,7 @@ A SQL portfolio project analyzing the MovieLens 32M dataset: 32 million movie ra
 
 The dataset is split across 4 files (`movies.csv`, `ratings.csv`, `tags.csv`, and `links.csv`), joined primarily through `movieId`, with `userId` linking ratings and tags.
 
-The raw CSVs are not included in this repo. Download them from the GroupLens link above.
+Data provided by GroupLens Research ([Harper & Konstan, 2015](https://doi.org/10.1145/2827872)). The raw CSVs are not included in this repo. Download them from the GroupLens link above.
 
 ## Files in This Repo
 
@@ -66,7 +66,3 @@ Multi-table joins · window functions (`RANK`, `NTILE`, partitioned ranking) · 
 1. Download MovieLens 32M from GroupLens and load the 4 CSVs into a MySQL schema named `movielens`.
 2. Run `MovieLens_Data_Cleaning.sql` top to bottom.
 3. Run the queries in `MovieLens_Business_Questions.sql`.
-
-## Acknowledgment
-
-F. Maxwell Harper and Joseph A. Konstan. 2015. The MovieLens Datasets: History and Context. *ACM Transactions on Interactive Intelligent Systems (TiiS)* 5, 4: 19:1–19:19. https://doi.org/10.1145/2827872
